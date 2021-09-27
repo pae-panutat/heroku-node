@@ -2,7 +2,7 @@ const express = require('express')
 const faker = require('faker')
 const _ = require('lodash')
 
-const app = express();
+const app = express()
 
 app.use(express.static('public'));
 
